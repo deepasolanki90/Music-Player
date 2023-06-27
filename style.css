@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #192841;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* -----------------------header section ----------------------*/
+.profile-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+.title1 {
+  display: block;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #152238;
+  color: white;
+  padding: 10px 5px;
+}
+.head-div1 {
+  display: flex;
+  align-items: center;
+}
+.head-div2 {
+  display: flex;
+  align-items: center;
+
+  gap: 2rem;
+}
+.fav {
+  color: white;
+  text-decoration: none;
+  padding-left: 3rem;
+}
+.logo-img {
+  height: 40px;
+  width: 40px;
+  padding: 0 1rem;
+}
+.searchbar {
+  border-radius: 5px;
+  padding: 5px 5px;
+  background-color: rgb(97, 97, 97);
+  color: rgb(199, 194, 194);
+  border: none;
+}
+/* end header */
+/* ============ BANNER SECTION ==================== */
+.banner-sec {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+.table {
+  margin: 0px 40px;
+  width: 90%;
+}
+.latest {
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 92vw;
+    margin: 0 40px;
+}
+.row{
+    display: flex;
+    /* width: 100vw; */
+    height: 100px;
+    margin: 5px;
+  
+}
+.music_card{
+    width: 59vw;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    margin: 5px;
+    background-color: #152238;;
+}
+.card-img{
+    width: 100px;
+    height: 100%;
+}
+.music_card-description{
+    position: relative;
+    display: inline-block;
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    margin: 0;
+}
+.date{
+    position: absolute;
+    top:60%;
+    left: 10px;
+    font-size: 10px;
+    margin: 0;
+}
+.more-button{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    margin: 0;
+}
+.time{
+    position: absolute;
+    right: 10px;
+    bottom: 45%;
+    margin: 0;
+    font-size:12px;
+    color: rgba(255, 255, 255, 0.363);
+}
+
